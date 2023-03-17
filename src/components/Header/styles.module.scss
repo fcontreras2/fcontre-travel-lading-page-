@@ -1,0 +1,24 @@
+@import "src/styles/mixins/media";
+
+.nav {
+  height: 40px;
+  position: absolute;
+  top: 47px;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+
+  &__logo {
+    width: 90.91px;
+    height: 30.99px;
+    @include media(lg) {
+      width: 114.91px;
+      height: 33.99px;
+    }
+  }
+
+  &__links {
+    display: none;
+  }
+}

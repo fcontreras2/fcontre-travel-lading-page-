@@ -1,0 +1,13 @@
+.nav-link {
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  color: #212832;
+  font-size: 17px;
+  line-height: 22px;
+  margin-left: 3rem;
+  transition: color 0.4s ease-out;
+  &:hover {
+    color: #DF6951;
+  }
+
+}

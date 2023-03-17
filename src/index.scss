@@ -1,0 +1,9 @@
+@import-normalize; /* bring in normalize.css styles */
+@import 'animate.css';
+
+@import "../node_modules/bootstrap/dist/css/bootstrap-reboot.css";
+@import "../node_modules/bootstrap/dist/css/bootstrap-utilities.css";
+@import "../node_modules/bootstrap/dist/css/bootstrap-grid.css";
+@import "../node_modules/bootstrap/scss/mixins/breakpoints";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins&family=Volkhov:wght@700&display=swap');
